@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+.rtl .mob-top-icons-area {
+	float: left;
+}
+.rtl .mob-bar-content .top-social-icons li i {
+	margin-right: auto;
+	margin-left: 10px;
+}
+.rtl .mob-newest-ads .mob-brand-categories {
+	right: auto;
+	left: 0;
+}
+.rtl .mob-brand-categories {
+	position: absolute;
+	top: 8%;
+	left: 4%;
+	right: auto;
+}
+.rtl .mob-details-lg {
+	text-align: right;
+}
+.rtl .mob-all-categories .mob-latest-categories li img {
+	float: right;
+	margin-right: 0;
+	margin-left: 15px;
+}
+.rtl .mob-all-categories .mob-latest-categories li i {
+	right: auto;
+	left: 20px;
+	transform: rotate(180deg);
+}
+.rtl .mob-brand-image {
+	float: right;
+	margin-right: auto;
+	margin-left: 20px;
+}
+.rtl .prop-newset-heading h2 {
+	text-align: right;
+}
+.rtl .mob-samsung-categories .owl-nav {
+	right: auto;
+	top: -40%;
+	left: 0;
+}
+.rtl .mob-samsung-categories .owl-nav i {
+	transform: rotate(180deg);
+	line-height: 30px;
+}
+.rtl .mob-brand-feature-ad-2 .mob-brand-text-area {
+	text-align: right;
+}
+.rtl .mob-brand-text-area p i {
+	color: #ff0000;
+	margin-right: auto;
+	margin-left: 10px;
+}
+.rtl .prop-estate-table .prop-content-area li i {
+	margin-right: auto;
+	margin-left: 5px;
+}
+.rtl .mob-hero-section .owl-carousel .owl-item.center {
+	opacity: 1;
+}
+.rtl .mob-hero-section .owl-carousel .owl-item {
+	opacity: .5;
+}
+.rtl .mob-logo-img {
+	float: right;
+	margin-right: 0;
+	margin-left: 20px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.rtl .mob-blog .mob-brand-categories {
+		top: 9%;
+	}
+	.rtl .prop-estate-text-section p i {
+		color: #ff0000;
+		margin-right: auto;
+		margin-left: 5px;
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.rtl .mob-top-icons-area {
+		float: none;
+	}
+}

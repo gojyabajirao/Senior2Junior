@@ -1,0 +1,1 @@
+Adforest classified, responsive, multi-purpose, corporate, business theme. It comes with 11 home variations with all necessary pages. Adforest theme filled with extra functionality of modern web technologies. The clean design with latest version of Bootstrap framework makes its fit for anywhere.

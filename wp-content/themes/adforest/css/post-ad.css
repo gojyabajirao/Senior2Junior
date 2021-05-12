@@ -1,0 +1,138 @@
+@charset "utf-8";
+/* CSS Document */
+
+.adf-post-ad .submit-form .row {
+    margin-top: 0;
+    margin-bottom:0;
+}
+.adf-post-ad #dynamic-fields .row {
+    margin-top: 15px;
+}
+.adf-menu .mega-menu.menu-2 {
+    position: relative;
+    top: 0;
+}
+
+.adf-information-box .form-group{
+    position: relative;
+}
+.adf-categories .form-group{
+    margin-bottom: 15px;
+    position: relative;
+}
+.adf-categories .form-control{
+    /*   position: relative;*/
+}
+
+.adf-search-bar {
+    margin-bottom: 15px;
+}
+.adf-information-text {
+    margin-bottom: 20px;
+}
+.adf-information-text h4 {
+    font-size: 20px;
+    color: #242424;
+    font-weight: 500;
+}
+
+.adf-st-information-box {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 1px 0px 20px rgba(0,0,0,0.07);
+}
+.adf-post-ad .adf-st-information-box label {
+    font-size: 16px;
+    font-weight: 500;
+    color: #232323;
+    margin-bottom: 10px;
+    font-family: "Quicksand",sans-serif;
+}
+.adf-post-ad {
+    background: #fbfbfb;
+    padding-top: 50px;
+}
+.adf-categories {
+    position: relative;
+    margin-bottom: 30px;
+    overflow: hidden;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 1px 0px 20px rgba(0,0,0,0.07);
+}
+.adf-categories .adf-information-box-1 {
+    margin-bottom: 20px;
+}
+.adf-categories .adf-information-box-2 {
+    margin-bottom: 20px;
+}
+.adf-categories .adf-information-text {
+    margin-bottom: 20px;
+}
+
+.adf-information-box-2 input {
+    height: 50px;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.adf-submit-form .btn-theme {
+    width: 100%;
+    padding: 12px 0;
+}
+
+.adf-content span{
+    margin-left: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #232323;
+    vertical-align: middle;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.adf-content p{
+    margin: 0;
+    font-size: 16px;
+}
+
+.adf-content{
+    background: #fff;
+    padding: 20px;
+    box-shadow: 1px 0px 20px rgba(0,0,0,0.07);
+    position: relative;
+    margin-bottom: 30px;
+}
+
+
+
+.adf-content .remning-ads{
+    position: absolute;
+    margin: 0;
+    top: 20%;
+    right: 45%;
+    font-size: 14px;
+}
+
+
+@media (max-width: 575.98px) {
+
+    .adf-content .remning-ads{
+        display: none;
+    }
+
+    .adf-content p{
+        font-size: 14px;
+    }
+
+
+
+
+}
+
+
+
+
+

@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+
+.rtl .srvs-apps-section .download-app-h2{
+	padding-right:0;
+	
+	}
+
+
+.rtl .srvs-apps-section .ios-logo-f1 {
+
+    float: right;
+    padding-right:auto;
+	 padding-left: 30px;
+}
+
+
+.rtl .srvs-featured-ads .prop-estate-table .prop-content-area li i {
+
+    font-size: 12px;
+    margin-right: auto;
+    margin-left: 5px;
+
+}
+
+
+.rtl .srvs-featured-ads .prop-estate-text-section p i {
+
+    color: #ff0000;
+    margin-right:auto;
+	   margin-left: 5px;
+}
+
+
+
+.rtl .services-top-bar .mob-bar-content .top-social-icons li i {
+	margin-right: auto;
+		margin-left: 10px;
+	}
+
+
+.rtl .prop-estate-links {
+	right: 3%;
+	left:auto;
+	}
+
+.rtl .prop-estate-icons {
+	right:20%;
+	left:auto;
+	
+	}
+
+.rtl .prop-estate-rent {
+	right: 3%;
+	left:auto;
+	}
+
+.rtl .prop-search-bar .form-group .adforest-search-spinner  {
+    left: 30px;
+    right: auto;
+}
+.rtl .mob-bar-content .top-social-icons li {
+    margin-right: 0;
+    margin-left: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+	
+	.srvs-top-header .mega-menu.menu-2 {
+    border-bottom: 0px;
+}
+	
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+.rtl .animals-top-categories {
+
+    columns: 1;
+
+}
+	
+	.srvs-top-header .mega-menu.menu-2 {
+    border-bottom: 0px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

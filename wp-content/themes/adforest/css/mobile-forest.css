@@ -1,0 +1,536 @@
+@charset "utf-8";
+/* CSS Document */
+.no-extra {
+	padding: 30px 0;
+}
+/*mobile-hero-section start*/
+.mob-hero-text-section h3 {
+	text-align: center;
+	color: #fff;
+	font-size: 38px;
+	font-weight: 600;
+	padding-bottom: 5px;
+}
+.mob-hero-text-section p {
+	color: #fff;
+	font-weight: 300;
+	position: relative;
+	font-size: 22px;
+	width: 70%;
+	margin: 0 auto;
+	font-family: 'Quicksand', sans-serif;
+}
+.mob-hero-text-section {
+	text-align: center;
+	margin-top: 70px;
+	min-height: 480px;
+}
+.mob-hero-section .owl-controls {
+	display: none;
+}
+.mob-hero-slider-section img {
+	position: absolute;
+	top: 0;
+}
+/*mobile-hero-section end*/
+/*mob-brands start*/
+.mob-brands {
+	background: #f9f9f9;
+}
+.mobile-brand-text {
+	margin-bottom: 35px;
+}
+.mobile-brand-text h3 {
+	color: #232323;
+	font-weight: 500;
+	font-size: 22px;
+}
+.mobile-brand-text h3::before {
+	background-color: #232323;
+	bottom: -5px;
+	content: "";
+	height: 1px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	width: 99px;
+}
+.mobile-brand-text h3::after {
+	background-color: #232323;
+	bottom: -11px;
+	content: "";
+	height: 1px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	width: 59px;
+}
+.mob-brands-logo {
+	border: 1px solid #f5f5f5;
+	margin-bottom: 12px;
+	transition: .5s;
+}
+.mob-brands-logo:hover {
+	background: #F9F9F9;
+}
+.mob-brands-main-content-area {
+	background: #fff;
+	padding: 20px 30px;
+	position: relative;
+	overflow: hidden;
+}
+.mob-brands-main-content-area ul li {
+	width: 22.2%;
+	margin-right: 25px;
+	padding: 0;
+	margin-bottom: 15px;
+	float: left;
+}
+.mob-brands-main-content-area ul li:nth-child(4n+4) {
+	margin-right: 0;
+}
+.mob-brand-banner {
+	margin-bottom: 25px;
+}
+.mob-brand-categories {
+	position: absolute;
+	top: 5%;
+	right: 4%;
+}
+.mob-brand-categories a {
+	padding: 8px 36px;
+}
+.mob-brand-content-area {
+	position: relative;
+}
+.mob-featured-ad h4 {
+	color: #232323;
+	font-weight: 500;
+	font-size: 18px;
+}
+.mob-featured-ad {
+	padding: 12px 20px;
+	border-bottom: 1px solid #f5f5f5;
+	background-color: #FFF;
+}
+.mob-brands-section {
+	background: #fff;
+	position: relative;
+}
+.mob-brand-image {
+	float: left;
+	margin-right: 20px;
+}
+.mob-brand-box {
+	position: relative;
+	margin-bottom: 20px;
+}
+.mob-brand-box:last-child {
+	margin-bottom: 0;
+}
+.mob-brand-text-area {
+	position: relative;
+	padding: 12px 0;
+	overflow: hidden;
+}
+.mob-brand-text-area p {
+	margin: 0;
+	font-size: 14px;
+	color: #999;
+}
+.mob-brand-text-area p i {
+	color: #ff0000;
+	margin-right: 10px;
+	font-size: 12px;
+}
+.mob-brand-text-area h5 a {
+	color: #232323;
+	font-weight: 500;
+	font-size: 16px;
+}
+.mob-brand-text-area span {
+	font-weight: 600;
+	color: #232323;
+}
+.mob-theme-box {
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	border-radius: 4px;
+}
+.mob-brand-feature-ad {
+	position: relative;
+	overflow: hidden;
+	padding: 20px;
+}
+.mob-brand-more-ads .btn-theme {
+	width: 100%;
+}
+.mob-brand-more-ads {
+	margin-top: 10px;
+}
+/*mob-brands end*/
+/*mob-newest-ads*/
+.mob-newest-ads {
+	position: relative;
+}
+.mob-newest-ads .owl-theme .owl-controls {
+	display: none;
+}
+.mob-newest-ads .mob-brand-categories {
+	top: -22%;
+	right: 0;
+}
+.mob-newest-ads .prop-estate-table .prop-content-area li:last-child {
+	margin: 0;
+}
+.mob-newest-ads .mob-slider-content {
+	position: relative;
+}
+/*mob-newest-ads*/
+/*mob-samsung-categories
+*/
+.mob-samsung-categories {
+	position: relative;
+}
+.mob-samsung-latest-product {
+	margin: 0 auto;
+	display: table;
+}
+.mob-samsung-products {
+	background: #FFFFFF;
+}
+.mob-samsung-text h4 {
+	color: #232323;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+}
+.mob-samsung-text h4 a {
+	color: #232323;
+}
+.mob-samsung-text {
+	padding: 10px;
+	text-align: center;
+}
+.mob-samsung-text span {
+	color: #999;
+	font-weight: 500;
+	font-size: 14px;
+	font-family: 'Quicksand', sans-serif;
+}
+.mob-samsung-categories .owl-theme .owl-controls .owl-nav div {
+	background: #fff;
+	padding: 0px 10px;
+	border-radius: 0;
+	transition: .5s;
+}
+.mob-samsung-categories .owl-theme .owl-controls .owl-nav div:hover {
+	background: #eb2a28;
+}
+.mob-samsung-categories .owl-theme .owl-controls .owl-nav i:hover {
+	color: #FFFFFF;
+}
+.mob-samsung-categories .owl-theme .owl-controls .owl-nav i {
+	font-size: 22px;
+	color: #232323;
+}
+.mob-samsung-categories .owl-nav {
+	position: absolute;
+	right: 0;
+	top: -40%;
+	margin-top: 0;
+}
+.mob-samsung-categories .owl-dots {}
+.mob-sa-contents {
+	margin-bottom: 20px;
+	background-color: #FFF;
+	padding: 20px 30px;
+}
+.mob-new-ads {
+	margin-bottom: 20px;
+}
+.mob-details-lg-2 {
+	position: relative;
+	text-align: left;
+}
+.mob-all-categories .mob-latest-categories li img {
+	float: left;
+	margin-right: 15px;
+	margin-top: 3px;
+}
+.mob-details-lg {
+	text-align: left;
+}
+.mob-all-categories {
+	background-color: #FFFFFF;
+	position: relative;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.05);
+}
+.mob-details-lg h6 {
+	font-size: 16px;
+	font-weight: 500;
+	color: #232323;
+}
+.mob-details-lg p {
+	color: #999999;
+	margin: 0;
+}
+.mob-all-categories .mob-latest-categories li {
+	padding: 10px 20px;
+	border-bottom: 1px solid #f5f5f5;
+	position: relative;
+}
+.mob-all-categories .mob-latest-categories li i {
+	position: absolute;
+	right: 20px;
+	top: 35%;
+	opacity: .4;
+	font-size: 20px;
+	color: #999;
+}
+.mob-latest-contents {
+	text-align: left;
+}
+.mob-latest-contents h5 {
+	font-size: 18px;
+	color: #232323;
+	font-weight: 500;
+}
+.mob-brand-feature-ad-2 {
+	background: #FFFFFF;
+}
+.mob-blog {
+	position: relative;
+}
+.mob-blog .mob-brand-categories {
+	top: 15%;
+}
+.mob-brand-feature-ad-2 .mob-brand-text-area {
+	position: relative;
+}
+.mob-brand-feature-ad-2 .mob-brand-text-area h5 {
+	font-size: 16px;
+	font-weight: 500;
+	color: #232323;
+}
+.mob-samsung-categories .mob-app-widget {
+	margin-bottom: 20px;
+}
+.mob-samsung-categories .mob-app-widget:last-child {
+	margin-bottom: 0;
+}
+/*mob-samsung-categories
+*/
+/*mob-call-to-action*/
+.mob-call-to-action {
+	border-bottom: 1px solid #f5f5f5;
+}
+.mob-call-text-section h4 {
+	color: #232323;
+	font-size: 20px;
+	font-weight: 500;
+}
+.mob-call-text-section p {
+	font-size: 15px;
+	font-weight: 400;
+	margin: 0;
+}
+.mob-logo-img {
+	float: left;
+	position: relative;
+	margin-right: 20px;
+}
+.mob-details-section {
+	position: relative;
+	overflow: hidden;
+	margin-top: 10px;
+}
+.mob-details-section p {
+	margin: 0;
+	font-size: 14px;
+	color: #232323;
+	font-family: 'Quicksand', sans-serif;
+}
+.mob-details-section span {
+	color: #232323;
+	font-weight: 500;
+	font-size: 16px;
+	font-family: 'Quicksand', sans-serif;
+	word-wrap: break-word;
+}
+.mob-call-to-action .mob-contact-section li {
+	margin-right: 20px;
+}
+/*mob-call-to-action*/
+.owl-carousel {}
+.mob-hero-section .owl-carousel .owl-item {
+	background: none;
+	background: #FFFFFF;
+	opacity: .3;
+	transition: .5s;
+}
+.mob-hero-section .owl-carousel .active {
+	background: none;
+	background: #FFFFFF;
+	opacity: 1;
+}
+.mob-blog-post .custom-padding {
+	padding-top: 30px
+}
+/*footer*/
+.footer-widget-title h2 {
+	font-size: 20px;
+	color: #232323;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.widget.widget_nav_menu .menu li a {
+	color: #232323 !important;
+	display: inline-flex;
+}
+.mob-hero-section .owl-carousel .owl-item.center {
+	opacity: 1;
+}
+.mob-hero-section .owl-carousel .owl-item {
+	opacity: .5;
+}
+/*footer*/
+@media (min-width: 768px) and (max-width: 1023px) {
+	.mob-brand-feature-ad-2 .mob-brand-text-area {
+		text-align: center;
+		padding: 10px;
+	}
+	.mob-hero-text-section p {
+		display: none;
+	}
+	.mob-call-text-section {
+		margin-bottom: 25px;
+	}
+	.mob-brand-text-area h5 {
+		font-size: 14px;
+	}
+	.mob-brand-image {
+		float: none !important;
+		margin-right: 0 !important;
+	}
+	.mob-brand-image img {
+		width: 100%;
+	}
+	.mob-brand-text-area {
+		text-align: center;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.mob-brand-text-area h5 {
+		font-size: 14px !important;
+	}
+	.mob-hero-text-section {
+		left: 2% !important;
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.mob-hero-text-section p {
+		display: none;
+	}
+	.mob-new-ads {
+		margin-top: 20px;
+	}
+	.mob-new-ads img {
+		width: 100%;
+	}
+	.mob-bar-content {
+		text-align: center;
+	}
+	.mob-brands .list-inline li {
+		float: left;
+	}
+	.mob-brands-main-content-area {
+		padding: 15px;
+		overflow: hidden;
+	}
+	.mob-logo-img {
+		margin: 0 auto;
+		display: table;
+	}
+	.mob-details-section {
+		text-align: center;
+	}
+	.mob-brand-categories {
+		top: 5% !important;
+	}
+	.mob-hero-text-section h3 {
+		font-size: 20px;
+	}
+	.mob-hero-text-section h3 {
+		padding: 0;
+	}
+	.mob-call-text-section {
+		margin-bottom: 20px;
+	}
+	.mob-logo-img {
+		float: none;
+	}
+	.mob-details-section {
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	.mob-brand-banner {
+		margin-top: 20px;
+	}
+	.mob-hero-text-section {
+		margin-top: 10px;
+		min-height: 150px;
+	}
+	.mob-brands-main-content-area ul li {
+		width: 47.1%;
+		margin-right: 15px;
+		margin-bottom: 10px;
+	}
+	.mob-brands-main-content-area ul li:nth-child(2n+2) {
+		margin-right: 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.mob-hero-text-section {
+		min-height: 154px;
+		margin-top: 15px;
+	}
+	.mob-hero-text-section h3 {
+		font-size: 18px;
+	}
+	.mob-brands-main-content-area ul li:nth-child(2n+2) {
+		margin-right: 0;
+	}
+	.mob-brand-categories {
+		position: absolute;
+		top: 34px;
+		right: 7%;
+	}
+	.mob-brands-main-content-area ul li {
+		width: 48%;
+		margin-right: 15px;
+		margin-bottom: 15px;
+	}
+	.mob-brands-main-content-area ul li .mob-brands-logo img {
+		margin: 0 auto;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.adf-header .form-control {
+		width: 180px;
+	}
+	.mob-hero-text-section {
+		min-height: 270px;
+		margin-top: 20px;
+	}
+	.mob-hero-text-section p {
+		font-size: 16px;
+	}
+	.mob-hero-text-section h3 {
+		font-size: 30px;
+	}
+	.mob-brands-main-content-area ul li {
+		width: 21.7%;
+	}
+}

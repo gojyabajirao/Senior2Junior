@@ -1,0 +1,141 @@
+/*sprt-hero-section*/
+.sprt-hero-text {
+	padding-top: 180px;
+	padding-bottom: 130px;
+}
+.sprt-hero-cric h3 {
+	font-size: 34px;
+	color: #fff;
+	font-weight: 500;
+	line-height: 26px;
+}
+.sprt-hero-cric h1 {
+	font-size: 68px;
+	color: #fff;
+	font-weight: 600;
+}
+.sprt-hero-cric p {
+	color: #fff;
+	width: 70%;
+	font-size: 20px;
+}
+.sprt-hero-st {
+	margin-top: 25px;
+}
+.sprt-hero-st .btn-theme {
+	padding: 8px 26px;
+}
+.sprt-hero-section {
+	height: auto;
+	background-size: cover;
+	position: relative;
+}
+.sprt-hero-section::before {
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	background-color: rgba(5, 3, 29, 0.8);
+}
+/*sprt-hero-section*/
+/*sprt-explore-section*/
+.sprt-explore-section .srvs-explore-section .srvs-ex {
+	color: #03a9f4;
+}
+.sprt-explore-box {
+	position: relative;
+}
+.sprt-ex-ads {
+	position: absolute;
+	left: 39%;
+	bottom: -10%;
+	opacity: 0;
+	-webkit-transition: all .25s ease-in-out;
+	-moz-transition: all .25s ease-in-out;
+	-ms-transition: all .25s ease-in-out;
+	-o-transition: all .25s ease-in-out;
+	transition: all .25s ease-in-out;
+}
+.col-lg-2 .srvs-explore-box .sprt-ex-ads {
+	left: 31%;
+}
+.sprt-ex-ads .btn-theme {
+	padding: 2px 15px;
+	border-radius: 20px;
+}
+.sprt-explore-box:hover .sprt-ex-ads {
+	opacity: 1;
+}
+/*sprt-explore-section*/
+/*sprt-featured-ads*/
+.sprt-featured-ads .dec-featured-ads .heading-panel .srvs-ex {
+	color: #03a9f4 !important;
+}
+.sprt-int {
+	text-align: center;
+}
+.sprt-int .btn-theme {
+	padding: 8px 28px;
+}
+/*sprt-featured-ads*/
+/*sprt-ad-location*/
+.sprt-ad-location .dec-location-section::before {
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	position: absolute;
+	background-color: rgba(5, 3, 29, 0.7);
+}
+.sprt-ad-location .dec-location-section {
+	background-size: cover;
+}
+/*sprt-ad-location*/
+/*sprt-action*/
+.sprt-mc .dec-brnd-text h4 {
+	color: #03a9f4;
+}
+.sprt-mc .dec-brnd-text h4::before {
+	background-color: #03a9f4;
+}
+.sprt-mc .dec-brnd-text h4::after {
+	background-color: #03a9f4;
+}
+.sprt-mc .dec-brnd-text h2 {
+	font-size: 38px;
+	line-height: 26px;
+}
+.sprt-mc .dec-brnd-text h4 {
+	font-weight: 500;
+	line-height: 55px;
+}
+/*sprt-action*/
+@media (min-width: 320px) and (max-width: 767px) {
+	.sprt-hero-cric h1 {
+		line-height: 50px;
+		font-size: 35px;
+	}
+	.sprt-hero-cric h3 {
+		font-size: 22px;
+		line-height: 26px;
+	}
+	.sprt-hero-cric p {
+		font-size: 16px;
+	}
+	.sprt-hero-text {
+		padding-top: 200px;
+		padding-bottom: 70px;
+	}
+	.sprt-hero-st .btn-theme {
+		padding: 6px 22px;
+	}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+}

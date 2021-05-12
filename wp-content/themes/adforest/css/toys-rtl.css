@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+.rtl .prop-newset-heading h2::before {
+	left: auto;
+	right: 0;
+}
+.rtl .prop-newset-heading h2::after {
+	left: auto;
+	right: 0;
+}
+.rtl .toys-blog-post .mob-blog .mob-brand-categories {
+	top: 9%;
+	left: 5%;
+	right: auto;
+}
+.rtl .toys-action-text h3 {
+	line-height: 70px;
+}
+.rtl .mob-brands .mob-brand-text-area p i {
+	margin-right: auto;
+	margin-left: 10px;
+}
+.rtl .mob-brands .mob-samsung-text span {
+	font-weight: 500;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.rtl .mob-brand-image {
+		margin: 0;
+	}
+	.rtl .toys-es-img {
+		position: relative;
+		margin-bottom: 20px;
+	}
+	.rtl .toys-es-img img {
+		width: 100%;
+	}
+	.rtl .toys-ex-icons {
+		display: none;
+	}
+	.rtl .toys-hero-accesories {
+		padding: 25px;
+	}
+	.rtl .toys-hero-section .mob-all-categories .mob-latest-categories li img {
+		margin-right: 10px;
+	}
+	.rtl .toys-call-to-action {
+		height: auto;
+	}
+	.rtl .toys-es-text {
+		top: 15%;
+	}
+}
+.rtl .toys-latest-products {
+	bottom: 0;
+	right: 0px;
+	left: auto;
+}
+.rtl .toys-es-sale .toys-es-text {
+	top: 10%;
+	right: 10%;
+	left: auto;
+}
+.rtl .toys-ex-categories {
+	bottom: 2%;
+	left: 5%;
+	right: auto;
+}
+.rtl .toys-ex-shops {
+	bottom: 7%;
+	right: 6%;
+	left: auto;
+}
+.rtl .toys-es-text {
+	top: 10%;
+	right: 6%;
+	left: auto;
+}
+.rtl .toys-es-img {
+	position: relative;
+	overflow: hidden;
+}
+.rtl .toys-es-sale {
+	position: relative;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.rtl .toys-es-sale .toys-es-text h4 {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.rtl .toys-ex-shops .btn-theme {
+		font-size: 12px;
+	}
+}
