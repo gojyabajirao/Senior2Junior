@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* CSS Document */
+.rtl .prop-location-city {
+	top: 3%;
+	left: auto;
+	right: 8%;
+}
+.rtl .prop-footer-categories {
+	float: left;
+}
+.rtl .new-social-icons {
+	float: left;
+}
+.rtl .prop-agent-text-section p i {
+	color: #ff0000;
+	margin-left: 6px;
+	margin-right: auto;
+}
+.rtl .prop-estate-text-section p i {
+	margin-left: 6px;
+	margin-right: auto;
+}
+.rtl .prop-estate-table .prop-content-area li i {
+	margin-right: auto;
+	margin-left: 6px;
+}
+.rtl .prop-search-categories {
+	margin-top: 32px;
+}
+.rtl .prop-it-sell-text-section span {
+	font-weight: 500;
+}
+.rtl .prop-estate-text-section span {
+	font-weight: 500;
+}
+.rtl .prop-estate-image-section {
+	float: right;
+	padding-right: 0;
+	padding-left: 15px;
+}
+.rtl .prop-location-details {
+	right: auto;
+	left: 10%;
+}
+.rtl .prop-newset-heading a.btn {
+	right: auto;
+	left: 0
+}
+.rtl .prop-hero-text-section {
+	margin-left: 0;
+	margin-right: 20px;
+}
+.rtl .prop-latest-textfields .prop-sumit-form {
+	left: 0%;
+	right: auto;
+}
+.rtl .prop-newest-main-section .prop-newest-image .listing-bidding {
+	right: auto;
+	left: 0px;
+}
+.rtl .mega-menu-3 .nav-table ul.dropdown-menu {
+	right: auto;
+	left: 0;
+}
+.rtl .prop-newest-section .nav-tabs {
+	right: auto;
+	left: 15px;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.rtl .new-social-icons {
+		float: right;
+	}
+	.rtl .mega-menu-3 .adf-header .btn {
+		position: absolute;
+		top: 0;
+		right: auto;
+		left: 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.rtl .prop-location-city span {
+		font-weight: 500;
+	}
+	.rtl .prop-estate-table .prop-content-area li {
+		margin-right: 0px;
+	}
+	.prop-menu .header-social-h2 {
+		float: left;
+	}
+	.rtl .prop-latest-textfields .prop-sumit-form {
+		left: 0%;
+		right: auto !important;
+	}
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.rtl .prop-location-city span {
+		font-weight: 500;
+	}
+	.rtl .prop-menu .header-social-h2 {
+		position: relative;
+	}
+}

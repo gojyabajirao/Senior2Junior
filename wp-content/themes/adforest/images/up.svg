@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="10px" viewBox="0 0 17 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Nannybag" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-711.000000, -4762.000000)" fill="#FFFFFF">
+            <g id="Footer" transform="translate(0.000000, 4743.000000)">
+                <path d="M727.684666,19.3215113 C727.474783,19.1075167 727.22593,19 726.937341,19 L712.062659,19 C711.775089,19 711.525217,19.1075167 711.315334,19.3215113 C711.105451,19.5365448 711,19.7902738 711,20.0834776 C711,20.3766814 711.105451,20.6301508 711.315334,20.8451842 L718.752929,28.4284887 C718.963831,28.6424833 719.21243,28.75 719.5,28.75 C719.78757,28.75 720.037188,28.6424833 720.247326,28.4284887 L727.684666,20.8451842 C727.894549,20.6301508 728,20.3766814 728,20.0834776 C728,19.7902738 727.894549,19.5365448 727.684666,19.3215113 Z" id="Fill-1" transform="translate(719.500000, 23.875000) rotate(-180.000000) translate(-719.500000, -23.875000) "/>
+            </g>
+        </g>
+    </g>
+</svg>

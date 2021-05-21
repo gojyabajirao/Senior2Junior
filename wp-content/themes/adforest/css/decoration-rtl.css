@@ -1,0 +1,112 @@
+.rtl .dec-featured-details-section p i {
+	margin-right: auto;
+	margin-left: 5px;
+	color: #ff0000;
+}
+.rtl .dec-featured-details-section p i {
+	margin-right: auto;
+	margin-left: 5px;
+}
+.rtl .dec-featured-ht {
+	right: 2%;
+	left: auto;
+}
+.rtl .dec-featured-cam {
+	right: 2%;
+	left: auto;
+}
+.dec-featured-icons {
+	right: 2%;
+	left: auto;
+}
+.rtl .dec-top-ad-post a {
+	border-radius: 0;
+	padding: 16px;
+}
+.rtl .dec-hd-sign .dec-hd-links li i.icon-envelope {
+	padding: 15px;
+}
+.rtl .dec-featured-icons {
+	right: 2%;
+	left: auto;
+}
+.rtl .dec-hd-sign {
+	float: left;
+}
+.rtl .top-bar-social-icons {
+	float: right;
+}
+.rtl .dec-nav-wrap .mega-menu .dropdown-menu {
+	left: 0;
+	right: auto !important;
+}
+.rtl .dec-top-bar .dec-top-ad-post {
+	position: relative;
+	float: left;
+}
+.rtl .dec-top-ad-post a i {
+	margin-right: auto;
+	margin-left: 5px;
+}
+.rtl .dec-hero-submit {
+	left: -5px;
+	right: auto;
+	;
+}
+.rtl .dec-blog .dec-blog .mob-brand-categories {
+	left: 5% !important;
+}
+.rtl .img-options-wrap {
+	right: 13px;
+	left: auto;
+}
+.rtl .dec-nav-wrap .mega-menu .menu-links {
+	margin-right: 30px;
+	margin-left: 0;
+}
+@media (min-width: 1024px) and (max-width: 1279px) {
+	.rtl .dec-brnd-main-content {
+		padding: 0;
+	}
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+	.rtl .dec-brnd-main-content {
+		padding: 0;
+	}
+	.rtl .top-bar-social-icons {
+		float: left;
+	}
+	.rtl .top-bar-social-icons .list-style li {
+		margin-right: 5px;
+	}
+	.rtl .dec-top-bar .top-bar-social-icons {
+		float: left;
+	}
+}
+@media (min-width: 320px) and (max-width: 767px) {
+	.rtl .dec-featured-box-img img {
+		width: 100%;
+	}
+	.rtl .dec-brnd-main-content {
+		padding: 0;
+		margin-bottom: 30px;
+	}
+	.rtl .top-bar-social-icons {
+		float: none;
+		margin-right: 0px;
+		text-align: center;
+	}
+	.rtl .dec-hero-submit {
+		left: -70px;
+	}
+	.rtl .dec-hero-text-section h1 {
+		font-size: 30px;
+	}
+	.rtl .dec-hero-text-section h5 {
+		line-height: 34px;
+	}
+}
+.rtl .dec-featured-box-img .listing-bidding {
+	right: auto;
+	left: 15px;
+}

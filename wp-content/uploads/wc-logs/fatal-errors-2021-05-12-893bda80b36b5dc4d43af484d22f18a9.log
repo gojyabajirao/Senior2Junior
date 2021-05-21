@@ -1,0 +1,4 @@
+2021-05-12T10:18:31+00:00 CRITICAL Cannot use [] for reading in C:\xampp\htdocs\Senior2Junior\wp-content\themes\adforest\template-parts\layouts\blog-loop.php on line 19
+
+2021-05-12T10:28:06+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\Senior2Junior\wp-includes\Requests\Transport\cURL.php on line 163
+

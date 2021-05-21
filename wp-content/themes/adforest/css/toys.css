@@ -1,0 +1,491 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*toys-hero-section*/
+
+.toys-hero-section {
+    position: relative;
+}
+
+
+
+.toys-hero-section .mob-latest-contents h5 {
+    color: #FFFFFF;
+}
+.toys-hero-text h3 {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 53px;
+    font-weight: 600;
+    line-height: 56px;
+}
+.toys-hero-text p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 300;
+}
+.toys-hero-shop .btn-theme {
+    background: #fff;
+    color: #232323;
+    padding: 8px 28px;
+    font-weight: 600;
+}
+.toys-hero-content {
+    position: relative;
+    overflow: hidden;
+   }
+.toys-hero-shop {
+    margin-top: 25px;
+}
+.toys-hero-accesories {
+    padding: 70px 20px;
+}
+.toys-new-accessories .toys-hero-content .toys-hero-accesories .toys-hero-logo {
+    max-width: 200px;
+}
+
+.toys-new-accessories .toys-hero-content .toys-hero-img {
+    margin-top: 30px;
+}
+.toys-hero-section .owl-nav {
+    display: none;
+}
+
+.toys-hero-section .owl-theme .owl-dots .owl-dot span {
+    background: #FFFFFF;
+    margin: 0;
+}
+.toys-new-accessories.owl-carousel .owl-dots {
+    position: relative;
+    margin-top: -40px;
+    padding: 0;
+}
+.toys-new-accessories.owl-carousel .owl-dots button.owl-dot {
+    background-color: transparent !important;
+}
+.toys-new-accessories.owl-carousel .owl-dots button.owl-dot.active span {
+    background-color: #232323;
+}
+/*toys-hero-section*/
+
+
+/*toys-biggest-section*/
+
+.toys-es-text {
+    position: absolute;
+    top: 10%;
+    left: 6%;
+}
+.toys-es-text h4 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+}
+.toys-ex-categories {
+    position: absolute;
+    bottom: 0;
+    right: 3%;
+}
+.toys-ex-shops .btn-theme {
+    background: transparent;
+    border: none;
+    font-weight: 500;
+    text-transform: capitalize;
+    font-family: 'Quicksand', sans-serif;
+}
+.toys-ex-shops .btn-theme:hover, .toys-ex-shops .btn-theme:focus {
+    background-color: transparent;
+}
+.toys-ex-shops {
+    position: absolute;
+    bottom: 7%;
+    left: 6%;
+}
+.toys-es-sale .toys-es-text {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.toys-es-sale .toys-es-text h4 {
+    font-size: 18px;
+    line-height: 27px;
+}
+.toys-es-sale-2 {
+    position: relative;
+}
+.toys-es-sale-2::before {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgb(39, 63, 152);
+    opacity: 0.5;
+}
+.toys-es-sale-2 .toys-es-text {
+    text-align: center;
+}
+.toys-es-sale-2 .toys-es-text h4 {
+    font-size: 17px;
+    line-height: 25px;
+}
+.toys-es-sale-2 .toys-es-text {
+    left: 20%;
+    top: 32%;
+}
+.toys-ex-icons {
+    position: absolute;
+    top: 10%;
+    left: 43%;
+}
+.toys-ex-icons i {
+    font-size: 33px;
+    color: #fff;
+}
+.toys-es-sale-2 .toys-ex-shops {
+    position: absolute;
+    bottom: 18%;
+    left: 26%;
+}
+/*toys-biggest-section*/
+
+
+
+/*toys-great-products*/
+
+.toys-great-products .srvs-ex {
+    color: #ff0000;
+}
+.toys-great-products .heading-panel h1::before {
+    background-color: #FF0000;
+}
+.toys-great-products .heading-panel h1::after {
+    background-color: #FF0000;
+}
+.toys-great-products .srvs-featured-ads-2 .btn-theme {
+    background-color: #FF0000;
+}
+.toys-great-products {
+    background: #fcfcfe;
+}
+/*toys-great-products*/
+
+/*toys-call-to-action*/
+
+
+.widget.widget_nav_menu ul li {
+    display: block;
+}
+
+
+
+.toys-call-to-action {
+  
+    height: 330px;
+    position: relative;
+}
+.toys-action-text h3 {
+    color: #fff;
+    line-height: 50px;
+    font-size: 40px;
+    font-weight: 500;
+}
+.toys-action-text span {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+}
+.toys-action-text p {
+    color: #fff;
+    line-height: 26px;
+    margin-top: 10px;
+}
+.toys-action-img {
+    margin-top: -80px;
+}
+.toys-action-shop {
+    margin-top: 20px;
+}
+.toys-action-shop .btn-theme {
+    background: #fff;
+    color: #232323;
+    padding: 8px 28px;
+    box-shadow: 2px 2px 10px 0px rgba(0,0,0,0.3);
+}
+.toys-action-main-content {
+    padding: 5px 80px;
+}
+.toys-latest-products {
+    position: absolute;
+    bottom: -65px;
+    left: 0px;
+}
+.toys-latest-products img {
+    width: 60%;
+}
+/*toys-call-to-action*/
+
+
+.toys-shops .mob-samsung-text {
+    text-align: center;
+}
+.toys-shops-2 .mob-samsung-categories {
+    text-align: left;
+}
+.toys-shops-2 .mob-new-ads {
+    margin-top: 25px;
+}
+.toys-blog-post {
+    background: #f9f9f9;
+}
+.toys-blog-post .mob-blog .mob-brand-categories {
+    top: 9%;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+
+
+    .toys-es-sale .toys-es-text h4 {
+    font-size: 14px;
+    line-height: 23px;
+}
+
+    .toys-hero-accesories {
+        padding:25px;
+
+    }	
+
+    .toys-es-text h4 {
+        line-height:28px;
+        font-size:20px;
+    }
+
+    .toys-hero-text p {
+        font-size: 14px;
+    }
+    .toys-hero-text h3 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .toys-action-text h3 {
+        line-height: 50px;
+        font-size: 36px;
+        font-weight: 500;
+    }
+    .toys-action-text span {
+        color: #fff;
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .toys-action-main-content {
+        padding: 0;
+    }
+    .toys-latest-products {
+        display: none;
+    }
+    .toys-action-img {
+        margin-top: -50px;
+    }
+    .toys-hero-shop .btn-theme {
+        padding: 6px 20px;
+    }
+    .toys-es-sale {
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+     .toys-es-sale img{
+        width: 100%;
+     }
+
+    .toys-ex-categories {
+        right: 0;
+    }
+    .toys-ex-categories img {
+        width: 90%;
+    }
+    .toys-es-text {
+        top: 20%;
+    }
+    .toys-ex-shops {
+        bottom: 10%;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+
+    .toys-es-sale .toys-es-text h4 {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.toys-ex-shops .btn-theme {
+    font-size: 12px;
+}
+
+
+    .toys-hero-accesories {
+        padding: 30px;
+    }
+    .toys-hero-text h3 {
+        line-height: 48px;
+        font-size: 42px;
+    }
+    .toys-ex-categories {
+        right: -3%;
+    }
+    .toys-ex-categories img {
+        width: 85%;
+    }
+    .toys-latest-products {
+        display: none;
+    }
+    .toys-action-img {
+        margin-top: -60px;
+    }
+    .toys-action-main-content {
+        padding: 10px 30px;
+    }
+    .toys-es-sale-2 .toys-ex-shops {
+        bottom: 6%;
+    }
+    .toys-es-sale-2 .toys-es-text h4 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .toys-es-sale-2 .toys-es-text {
+        top: 36%;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+
+    .toys-es-sale-2 .toys-ex-shops {
+        left:32%;
+
+    }
+
+    .toys-es-sale-2 .toys-es-text {
+        left:26%;
+
+    }
+
+    .toys-es-sale-2 .toys-es-text h4 {
+
+        font-size: 17px;
+        line-height: 27px;
+
+    }
+
+
+    .toys-es-text h4 {
+
+
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+
+    }	
+
+
+
+    .toys-es-sale-2 img{
+        width:100%;
+
+    }
+
+    .toys-es-sale{
+        margin-bottom:25px;
+
+    }
+
+
+    .toys-es-sale .toys-es-text h4 {
+
+        font-size: 24px;
+        line-height: 34px;
+
+    }
+
+
+    .toys-es-sale img{
+        width:100%;
+
+    }
+
+    .toys-ex-shops {
+        bottom: 20%;
+        left:auto;
+        right: 10%;
+    }	
+
+    .toys-es-img{
+        margin-bottom:25px;
+
+    }
+
+    .toys-ex-categories img{
+        display:none;
+
+    }	
+
+    .toys-hero-section .owl-dots {
+        display:none !important;
+
+    }	
+
+    .toys-hero-accesories {
+        padding:30px;
+
+    }	
+
+    .toys-hero-text p {
+        font-size:16px;
+
+    }	
+
+    .toys-hero-text h3 {
+        font-size: 42px;
+        line-height:48px;
+    }	
+
+    .toys-action-main-content {
+        padding: 0;
+    }
+    .toys-latest-products {
+        display: none;
+    }
+    .toys-call-to-action {
+        height: auto;
+    }
+    .toys-action-img {
+        margin-top: 0;
+    }
+    .toys-action-text h3 {
+        line-height: 60px;
+        font-size: 34px;
+    }
+    .toys-action-text span {
+        font-size: 34px;
+    }
+    .toys-es-text.grid {
+        width: 100%;
+    }
+}
+
+.toys-es-text.grid {
+    width: 60%;
+}
+.toys-es-text.wide {
+    width: 50%;
+}
+.toys-es-img, .toys-es-sale, .toys-es-sale {
+    position: relative;;
+}
+
+
+
+
+

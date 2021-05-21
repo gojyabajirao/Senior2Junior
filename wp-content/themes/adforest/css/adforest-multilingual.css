@@ -1,0 +1,88 @@
+.dropdown.ad-language {
+    position: fixed;
+    top: 15%;
+    right: 0;
+    z-index: 999;
+}
+.ad-language .btn-default {
+    border: none;
+    border-radius: 4px 0 0 4px;
+    padding: 10px 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.25);
+}
+.ad-language .btn-default:hover, .ad-language .btn-default:focus {
+    background-color:#FFF;	
+}
+.ad-language .btn-default:active, .ad-language .btn-default.active, .ad-language.open > .dropdown-toggle.btn-default {
+    background-color:#FFF !important;
+}
+
+.ad-language .dropdown-menu::before {
+    content: "";
+    background-image: url(../images/up.svg);
+    background-repeat: no-repeat;
+    width: 18px;
+    height: 10px;
+    margin-top: -14px;
+    z-index: 2000;
+    display: block;
+    border-radius: 0;
+    position: absolute;
+    right: -12px;
+    top: 20px;
+    transform: rotate(90deg);
+}
+.ad-language .dropdown-menu {
+    border: none;
+    box-shadow: 0 2px 10px rgba(0,0,0,.25);
+    margin-top: 0;
+    padding: 0;
+    left: auto;
+    right: 105px;
+    top: 0;
+    min-width: 120px;
+}
+.ad-language .dropdown-menu > li {
+    position: relative;
+    overflow: hidden;
+}
+.ad-language .dropdown-menu > li > a {
+    padding: 10px 20px;
+}
+.ad-language .dropdown-menu > li > a img {
+    margin-right: 5px;
+    vertical-align: middle;
+}
+.ad-language .dropdown-menu > li > a:hover {
+    color: #FFF;
+}
+.rtl .dropdown.ad-language {
+    position: fixed;
+    top: 15%;
+    left: 0;
+    right: auto;
+    z-index: 999;
+}
+.rtl .ad-language .dropdown-menu > li > a img {
+    margin-right: 0;
+     margin-left: 5px;
+    vertical-align: middle;
+}
+.rtl .ad-language .dropdown-menu {
+    left: 0;
+    right: auto;
+
+}
+.rtl .ad-language .dropdown-menu {
+    left: 110px;
+    right: auto;
+}
+.rtl .ad-language .btn-default {
+    border-radius: 0 4px 4px 0;
+}
+.rtl .ad-language .dropdown-menu::before {
+    left: -12px;
+    top: 20px;
+    right: auto;
+    transform: rotate(-90deg);
+}
